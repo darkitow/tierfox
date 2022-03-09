@@ -1,0 +1,23 @@
+:root {
+    --main-bg-color: #121212;
+    --prim-color: #bb86fc;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: #ffffff;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+    margin: auto 15%;
+}
+
+.desc {
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    color: #ffffff70
+}
